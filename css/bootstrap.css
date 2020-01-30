@@ -4396,17 +4396,15 @@ input[type="button"].btn-block {
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
-  line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
 
-.navbar-toggler-icon {
+.f-icon {
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
