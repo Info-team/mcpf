@@ -32,6 +32,9 @@
       @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
       @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap');
 
+        body {
+          background-color: #ebebeb;
+        }
         .redes {
           padding: 4px;
           background-color: #d96a10;
@@ -48,13 +51,24 @@
           font-family: 'Lato', sans-serif;
           font-size: 16px;
         }
+        .texto {
+          text-align: center;
+          margin-top: 100px;
+        }
+
         @media (max-width: 420px) {
           .display-4 {
             font-size: 40px;
           }
           .card {
           margin-bottom: 30px;
-        }
+          }
+          .imgsobre {
+            width: 370px;
+          }
+          .texto {
+            margin-top: 50px;
+          }
         }
     </style>
    </head>
@@ -104,7 +118,7 @@
                 </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">EVENTOS<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">ESTRUTURA<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">AGENDAMENTO ONLINE<span class="sr-only">(current)</span></a>
@@ -148,7 +162,7 @@
       </div>
 
 
-      <div class="sobre">
+      <div class="notícias">
         <div class="container">
           <h1 class="display-4" style="margin-top: 40px; font-family: 'PT Sans Narrow', sans-serif; color: #00a444;">Fique por dentro!</h1>
           <div class="border" style="height: 10px; background-color: #d96a10; margin-top: 20px;"></div>
@@ -183,11 +197,29 @@
             </div>
   
           </div>
-        </div>
+        </div>   
+      </div>
 
-
-
+      <div class="sobre">
+        <div class="container">
+          <h1 class="display-4" style="margin-top: 40px; font-family: 'PT Sans Narrow', sans-serif; color: #00a444;">Sobre nós</h1>
+          <div class="border" style="height: 10px; background-color: #d96a10; margin-top: 20px;"></div>
           
+          <div class="row mb-5">
+            <div class="col-sm-6 texto" style="">
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque totam vel cum, esse pariatur deleniti enim earum sit porro repellat in, quas perspiciatis quibusdam, libero autem dolor illum iste placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo alias in architecto sequi voluptatum iusto cumque molestias? Nulla eaque dolor sed, eos ducimus esse amet adipisci suscipit rem voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita rem magnam autem odio id quod? Illo quos pariatur, ullam placeat quod cum a dolore? Nobis, iure! Odit atque nihil dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet soluta rerum quia nobis aut tempore reprehenderit dignissimos veritatis officiis molestias, aperiam commodi eveniet minima neque. Veniam esse eos qui nobis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium aliquam aliquid ipsam quo atque qui quisquam reprehenderit quaerat vel autem sequi provident aspernatur, facilis corporis, nesciunt repellat. Est, tempore atque.</span>
+            </br>
+              <button type="button" class="btn btn-outline-success" style="margin-top:30px">CONHEÇA NOSSA ESCOLA</button>
+            </div>
+            <div class="col-sm-6">
+              <img src="./images/sobre.png" style="margin-top: 30px;" class="imgsobre">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="eventos">
+        
       </div>
     </main>
 
