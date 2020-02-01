@@ -67,13 +67,42 @@
           width: 300px;
           height: 300px;
         }
-
+        .circulo {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          background-color: white;
+          margin-top: 70px;
+        }
+        .col-sm-2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .fa-sitemap:hover {
+           color: rgb(6, 20, 150);
+        }
+        .fa-leaf:hover {
+          color: rgb(32, 233, 32);
+        }
+        .fa-handshake-o:hover {
+          color: rgb(131, 131, 131);
+        }
+        .fa-credit-card-alt:hover {
+          color: rgb(236, 203, 13);
+        }
+        .fa-pagelines:hover {
+          color: rgb(2, 88, 2);
+        }
+        .fa-terminal:hover {
+          color: rgb(122, 2, 122);
+        }
         @media (max-width: 570px) {
           .display-4 {
             font-size: 40px;
           }
           .card {
-          margin-bottom: 30px;
+           margin-bottom: 30px;
           }
           .texto {
             margin-top: 50px;
@@ -242,7 +271,7 @@
       <div class="container">
         <h1 class="display-4" style="margin-top: 40px; font-family: 'PT Sans Narrow', sans-serif; color: #00a444;">Estrutura</h1>
         <div class="border" style="height: 10px; background-color: #d96a10; margin-top: 20px;"></div>
-        <div class="jumbotron">
+        <div class="jumbotron" style="background-color: #ebebeb;">
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide" style="background-image:url(./images/nature-1.jpg)"></div>
@@ -259,6 +288,44 @@
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
           </div>
+      </div>
+
+      <div class="container">
+        <h1 class="display-4" style="margin-top: 40px; font-family: 'PT Sans Narrow', sans-serif; color: #00a444;">Conheça nossas formações</h1>
+        <div class="border" style="height: 10px; background-color: #d96a10; margin-top: 20px;"></div>
+        
+        <div class="row mb-5">
+          <div class="col-sm-2">
+            <div class="circulo">
+              <i class="fa fa-sitemap" aria-hidden="true" style="display: flex; justify-content: center; align-items: center; margin-top: 16px; font-size: 100px;"></i>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="circulo">
+              <i class="fa fa-leaf" aria-hidden="true" style="display: flex; justify-content: center; align-items: center; margin-top: 23px; font-size: 100px;"></i>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="circulo">
+              <i class="fa fa-handshake-o" aria-hidden="true" style="display: flex; justify-content: center; align-items: center; margin-top: 24px; font-size: 100px;"></i>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="circulo">
+              <i class="fa fa-credit-card-alt" aria-hidden="true" style="display: flex; justify-content: center; align-items: center; margin-top: 33px; font-size: 85px;"></i>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="circulo">
+              <i class="fa fa-pagelines" aria-hidden="true" style="display: flex; justify-content: center; align-items: center; margin-top: 30px; font-size: 85px;"></i>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="circulo">
+              <i class="fa fa-terminal" aria-hidden="true" style="display: flex; justify-content: center; align-items: center; margin-top: 25px; font-size: 85px;"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
