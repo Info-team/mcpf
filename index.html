@@ -43,11 +43,11 @@
           background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
         .fa-instagram {
-          color: rgb(243, 243, 243);
+          color: rgb(255, 255, 255);
           padding-right: 5px;
         }
         .fa-facebook-square {
-          color: rgb(243, 243, 243);
+          color: rgb(255, 255, 255);
         }
         .texto {
           text-align: center;
@@ -104,6 +104,15 @@
         .col-md-12 {
           text-align: right;
         }
+        .navbar-light .navbar-toggler {
+          border-color: rgba(0, 0, 0, 0);
+        }
+        .prof {
+          width: 165px;
+        }
+        .btn-outline-success {
+          border-color: rgba(0, 0, 0, 0);
+        }
         @media (max-width: 570px) {
           .display-4 {
             font-size: 25px;
@@ -127,7 +136,7 @@
             margin-bottom: 10px;
          }
          .prof {
-           width: 120px;
+           width: 96px;
          }
          .pesquisar {
            width: 150px;
@@ -149,8 +158,11 @@
            height: 30px;
            margin-right: 5px;
          }
+         .pesquisarbtn{
+           height: 30px;
+         }
          .prof {
-           width: 95px;
+           width: 75px;
          }
         }
     </style>
@@ -173,6 +185,12 @@
                     </div>
                     <div>
                       <button type="button" class="btn btn-success btn-sm" style="height: 33px;">Acessar</button>
+                    </div>
+                    <div>
+                      <i class="fa fa-instagram" aria-hidden="true" style="margin-top: 7px; margin-left: 10px; font-size: 20px;"></i>
+                    </div>
+                    <div>
+                      <i class="fa fa-facebook-square" aria-hidden="true" style="margin-top: 7px; font-size: 20px;"></i>
                     </div>
                   </div>
                 </form>
